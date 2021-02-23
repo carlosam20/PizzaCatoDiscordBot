@@ -1,5 +1,5 @@
 {
-  "name": "discordbot",
+  "name": "pizzacato",
   "version": "1.0.0",
   "description": "bot",
   "main": "index.js",
@@ -9,6 +9,17 @@
   "author": "Charles",
   "license": "ISC",
   "dependencies": {
-    "discord.js": "^12.3.1"
-  }
+    "discord.js": "^12.5.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carlosam20/PizzaCatoDiscordBot.git"
+  },
+  "keywords": [
+    "pizza"
+  ],
+  "bugs": {
+    "url": "https://github.com/carlosam20/PizzaCatoDiscordBot/issues"
+  },
+  "homepage": "https://github.com/carlosam20/PizzaCatoDiscordBot#readme"
 }
