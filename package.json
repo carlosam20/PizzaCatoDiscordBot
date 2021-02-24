@@ -9,7 +9,9 @@
   "author": "Charles",
   "license": "ISC",
   "dependencies": {
-    "discord.js": "^12.5.1"
+    "better-sqlite3": "^7.1.2",
+    "discord.js": "^12.5.1",
+    "node-gyp": "^7.1.2"
   },
   "repository": {
     "type": "git",
