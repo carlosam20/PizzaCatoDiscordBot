@@ -1,10 +1,12 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
-const SQlite = require("better-sqlite3");
-const sql = new SQlite('./datosUsuarios.sqlite');
+const SQlite = require('sqlite3').verbose();
+
 
 const prefix = '-';
 const fs = require('fs');
+const sqlite3 = require('sqlite3');
+
  
 
 
@@ -21,6 +23,7 @@ for(const file of commandFiles){
  //Terminal test for the login
 client.once('ready', () => {
     console.log('Pizzacato is online!');
+    let db = new sqlite3.Database('./ serverdb.db' , sqlite3.OPEN_READWRITE | sqlite3.OPEN_CREATE);
 });
  
 //Check the comand made by the user and return a message in server
